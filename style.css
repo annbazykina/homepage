@@ -144,6 +144,28 @@ body {
     margin-bottom: 15px;
 }
 
+.skills__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skills__item {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.skills__item a {
+    text-decoration: none;
+    color: var(--text-decoration-color);
+    cursor: pointer;
+}
+
+.skills__item > div > i {
+    color: var(--text-decoration-color);
+}
+
 .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
@@ -197,6 +219,12 @@ body {
 .experiences__company-project-responsibilities {
     color: var(--secondary-text-color);
     padding-left: 20px;
+    list-style: none;
+}
+
+.experiences__company-project-responsibilities a {
+    color: var(--secondary-text-color);
+    text-decoration: none;
 }
 
 .additional-info {
